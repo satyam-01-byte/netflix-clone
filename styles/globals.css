@@ -22,4 +22,8 @@
     .bannerButton {
         @apply flex items-center gap-x-2 rounded text-sm px-5 py-1.5 font-semibold transition hover:opacity-75 md:text-xl md:py-2.5 md:px-8;
     }
+
+    .input {
+        @apply w-full rounded bg-[#333] px-5 py-3.5 placeholder-[gray] outline-none focus:bg-[#454545];
+    }
 }
